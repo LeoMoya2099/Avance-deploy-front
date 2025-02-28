@@ -6,7 +6,7 @@ document.getElementById('check-balance').addEventListener('click', async () => {
     }
   
     try {
-      const response = await fetch('http://localhost:5001/check-balance', {
+      const response = await fetch('https://backend-9wrj.onrender.com/check-balance', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -42,7 +42,7 @@ document.getElementById('check-balance').addEventListener('click', async () => {
     }
   
     try {
-      const response = await fetch('http://localhost:5001/withdraw', {
+      const response = await fetch('https://backend-9wrj.onrender.com/withdraw', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -81,7 +81,7 @@ document.getElementById('check-balance').addEventListener('click', async () => {
     }
   
     try {
-      const response = await fetch('http://localhost:5001/deposit', {
+      const response = await fetch('https://backend-9wrj.onrender.com/deposit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
